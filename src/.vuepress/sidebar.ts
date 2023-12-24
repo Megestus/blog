@@ -1,5 +1,6 @@
 import { sidebar } from "vuepress-theme-hope";
 
+// 侧边栏
 export default sidebar({
   "/": [
     "",
@@ -14,13 +15,9 @@ export default sidebar({
       text: "文章",
       icon: "book",
       prefix: "posts/",
+      link: "posts/",
       children: "structure",
     },
-    "intro",
-    {
-      text: "幻灯片",
-      icon: "person-chalkboard",
-      link: "https://plugin-md-enhance.vuejs.press/zh/guide/content/revealjs/demo.html",
-    },
+
   ],
 });

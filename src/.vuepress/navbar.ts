@@ -1,52 +1,102 @@
 import { navbar } from "vuepress-theme-hope";
 
+// 导航菜单
 export default navbar([
+  //主页
   "/",
-  "/demo/",
+  // use页
+  "/posts/",
+
+
+  //docs下拉菜单
   {
-    text: "博文",
+    text: "docs",
     icon: "pen-to-square",
     prefix: "/posts/",
     children: [
+       //docs下拉菜单-小标题 Maya-tools
       {
-        text: "苹果",
+        text: "Maya-tools",
         icon: "pen-to-square",
-        prefix: "apple/",
-        children: [
-          { text: "苹果1", icon: "pen-to-square", link: "1" },
-          { text: "苹果2", icon: "pen-to-square", link: "2" },
-          "3",
-          "4",
-        ],
-      },
-      {
-        text: "香蕉",
-        icon: "pen-to-square",
-        prefix: "banana/",
+        prefix: "maya/",
         children: [
           {
-            text: "香蕉 1",
-            icon: "pen-to-square",
-            link: "1",
+            text: "Maya-Notes",
+            icon: "bookmark",
+            link: "MayaNotes",
+            
           },
+
           {
-            text: "香蕉 2",
-            icon: "pen-to-square",
-            link: "2",
+            text: "Maya-Checklist",
+            icon: "fa-solid fa-list",
+            link: "MayaChecklist",
+            
           },
-          "3",
-          "4",
+
+          {
+            text: "Maya-SelectEdges",
+            icon: "tools",
+            link: "selectEdges",
+          },
+
+          {
+            text: "Maya-UVset",
+            icon: "tools",
+            link: "UVset",
+          },
+
+          {
+            text: "Maya-PythonLearn",
+            icon: "fa-brands fa-python",
+            link: "PythonLearn",
+          },
+          
         ],
       },
-      { text: "樱桃", icon: "pen-to-square", link: "cherry" },
-      { text: "火龙果", icon: "pen-to-square", link: "dragonfruit" },
-      "tomato",
-      "strawberry",
+      
+
+      {
+      //docs下拉菜单-小标题 3Dmax_notes
+        text: "3Dmax_Notes",
+        icon: "pen-to-square",
+        prefix: "3dmax/",
+        children: [
+          {
+            text: "Max-Notes",
+            icon: "fa-solid fa-square-pen",
+            link: "MaxNotes",
+            
+          },   
+        ],
+      },
+
+      {
+        //docs下拉菜单-小标题 Perforce
+          text: "Perforce",
+          icon: "fa-solid fa-laptop-file",
+          prefix: "Perforce/",
+          children: [
+            {
+              text: "Perforce-CloudSet",
+              icon: "fa-solid fa-laptop-file",
+              link: "PerforceSet",
+              
+            },   
+          ],
+        },
     ],
   },
-  {
-    text: "V2 文档",
-    icon: "book",
-    link: "https://theme-hope.vuejs.press/zh/",
-  },
+
+
+
+
+
+  // 跳转链接
+  // {
+  //   text: "V2 文档",
+  //   icon: "book",
+  //   link: "https://theme-hope.vuejs.press/zh/",
+  // },
 ]);
+
