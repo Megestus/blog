@@ -133,9 +133,9 @@ print "成功导出";
 
 ## 免费工具
 
-::: center
-### 来自 Klaudio Ladavac 免费工具
-:::
+
+###  来自 Klaudio Ladavac 免费工具
+
 
 颜色id工具；镜像工具；测量工具；楔角工具；选择相似工具
 
@@ -147,9 +147,10 @@ print "成功导出";
 
 ---
 
-::: center
-### Ari UV工具集
-:::
+&ensp;
+
+###  Ari UV工具集
+
 
 
 UV-工具集
@@ -160,8 +161,20 @@ UV-工具集
 <div class="image-preview">
   <img src="https://megestus.github.io/blog/assets/images/Ari.png" />
 </div>
+
 ---
 
+
+&ensp;
+
+###  - Im3dJoe - Maya Polygon Lab -
+
+Im3dJoe工作室免费分享的一些超棒工具  [下载地址](https://im3djoe.gumroad.com/)
+
+部分截图
+<div class="image-preview">
+  <img src="https://megestus.github.io/blog/assets/images/Im3dJoe.png" />
+</div>
 
 
 
