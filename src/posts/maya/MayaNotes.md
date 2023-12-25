@@ -169,7 +169,9 @@ UV-工具集
 
 ###  - Im3dJoe - Maya Polygon Lab -
 
-Im3dJoe工作室免费分享的一些超棒工具  [下载地址](https://im3djoe.gumroad.com/)
+Im3dJoe工作室免费分享的一些超棒工具  
+
+[下载地址](https://im3djoe.gumroad.com/)
 
 部分截图
 <div class="image-preview">
