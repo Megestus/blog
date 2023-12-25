@@ -134,7 +134,7 @@ print "成功导出";
 ## 免费工具
 
 
-###  来自 Klaudio Ladavac 免费工具
+### - 来自 Klaudio Ladavac 免费工具 -
 
 
 颜色id工具；镜像工具；测量工具；楔角工具；选择相似工具
@@ -149,7 +149,7 @@ print "成功导出";
 
 &ensp;
 
-###  Ari UV工具集
+### - Ari UV工具集 -
 
 
 
@@ -167,7 +167,7 @@ UV-工具集
 
 &ensp;
 
-###  - Im3dJoe - Maya Polygon Lab -
+### - Im3dJoe - Maya Polygon Lab -
 
 Im3dJoe工作室免费分享的一些超棒工具  
 
@@ -192,7 +192,7 @@ Im3dJoe工作室免费分享的一些超棒工具
 
   .image-preview > img {
      box-sizing: border-box;
-     width: 80% !important;
+     width: 33.3% !important;
      padding: 9px;
      border-radius: 16px;
   }
