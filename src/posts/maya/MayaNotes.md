@@ -6,7 +6,7 @@ category:
 tag:
   - Maya
   - tips
-
+date: 2023-12-23
 # star: 1
 ---
 
