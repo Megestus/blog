@@ -223,7 +223,7 @@ P4PASSWD=pass12349ers!
 使用和P4类似，
 不过多说明。
 
-
+<!-- 预览窗口 点击后放大的style -->
 <style>
 
   .image-preview {
@@ -235,14 +235,14 @@ P4PASSWD=pass12349ers!
 
   .image-preview > img {
      box-sizing: border-box;
-     width: 90% !important;
+     width: 60% !important;
      padding: 9px;
      border-radius: 16px;
   }
 
   @media (max-width: 719px){
     .image-preview > img {
-      width: 95% !important;
+      width: 75% !important;
     }
   }
 
