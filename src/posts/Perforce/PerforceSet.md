@@ -8,14 +8,14 @@ tag:
   - Cloud sever
   - Teams
   - UE5
-
+date: 2023-12-20
 star: 2
 ---
 
 记录下云服务器部署Perforce的流程
 
 <div class="image-preview">
-  <img src="https://pic1.zhimg.com/v2-2538093776aeb5c9454c621cbac77291_r.webp?source=172ae18b&consumer=ZHI_MENG" />
+  <img src="https://megestus.github.io/blog/assets/images/p4nas.png" />
 </div>
 
 
@@ -36,7 +36,7 @@ star: 2
 [腾讯云地址](https://cloud.tencent.com/act/free?from=19067)
 
 <div class="image-preview">
-  <img src="https://blog.megestu.top/static/img/9ecfdc66dcdee766d6297a314d98daa0.image.webp" />
+  <img src="https://megestus.github.io/blog/assets/images/9ecfdc66dcdee766d6297a314d98daa0.image.webp" />
 </div>
 
 
@@ -46,15 +46,13 @@ star: 2
 
 
 <div class="image-preview">
-  <img src="https://blog.megestu.top/static/img/180c0ea68a43c7518a4c01850e515262.clipboard-2023-10-18.webp" />
+  <img src="https://megestus.github.io/blog/assets/images/180c0ea68a43c7518a4c01850e515262.clipboard-2023-10-18.webp" />
 </div>
 
 我们在购买完服务器后-可以在邮件中得知当前服务器的账号以及登录密码。
 
 <div class="image-preview">
-    <img src = "https://blog.megestu.top/static/img/6ed0ea4a45366f5589597c6054d66261.clipboard-2023-10-19.webp
-" 
-        >
+    <img src = "https://megestus.github.io/blog/assets/images/6ed0ea4a45366f5589597c6054d66261.clipboard-2023-10-19.webp" />
 </div>
 
 &ensp; 
@@ -65,22 +63,19 @@ star: 2
 然后我们登录此服务器
 
 <div class="image-preview">
-    <img src = "https://blog.megestu.top/static/img/93da21e2caaa9adca4c819917440bfbe.clipboard-2023-10-19.webp" 
-        >
+    <img src = "https://megestus.github.io/blog/assets/images/93da21e2caaa9adca4c819917440bfbe.clipboard-2023-10-19.webp"/>
 </div>
 
 <div class="image-preview">
     <img src = 
-"https://blog.megestu.top/static/img/0ea5fb1aa5dece4f8d29f81b25e6c207.clipboard-2023-10-19.webp"
-         >
+"https://megestus.github.io/blog/assets/images/0ea5fb1aa5dece4f8d29f81b25e6c207.clipboard-2023-10-19.webp" />
 </div>
 
 登录后 输入`sudo -i` 获取root权限
 
 <div class="image-preview">
     <img src = 
-"https://blog.megestu.top/static/img/c03d4a9469ad6576c7308690160a6528.clipboard-2023-10-19.webp"
-         >
+"https://megestus.github.io/blog/assets/images/c03d4a9469ad6576c7308690160a6528.clipboard-2023-10-19.webp"/>
 </div>
 
 &ensp; 
@@ -100,8 +95,7 @@ docker logs -f perforce
 ```
 <div class="image-preview">
     <img src = 
-"https://blog.megestu.top/static/img/dffc4ed5eaf39b59574564049f32a357.image.webp"
-        >
+"https://megestus.github.io/blog/assets/images/dffc4ed5eaf39b59574564049f32a357.image.webp"/>
 </div>
 
 
@@ -111,8 +105,7 @@ docker logs -f perforce
 
 <div class="image-preview">
     <img src = 
-"https://blog.megestu.top/static/img/31e4ecc7f86de925883ddc6ab1e29397.image.webp"
-        >
+"https://megestus.github.io/blog/assets/images/31e4ecc7f86de925883ddc6ab1e29397.image.webp"/>
 </div>
 
 当然你也可以直接复制以下默认管理员账号以及密码，进行登录。
@@ -135,8 +128,7 @@ P4PASSWD=pass12349ers!
 
 <div class="image-preview">
     <img src = 
-"https://blog.megestu.top/static/img/c2766ff110944bc6ed07b58af1eb5ae8.image.webp"
-       >
+"https://megestus.github.io/blog/assets/images/c2766ff110944bc6ed07b58af1eb5ae8.image.webp"/>
 </div>
 
 
@@ -149,8 +141,7 @@ P4PASSWD=pass12349ers!
 
 <div class="image-preview">
     <img src = 
-"https://blog.megestu.top/static/img/4dfa81522be498514ca684e195c15d71.image.webp"
-        >
+"https://megestus.github.io/blog/assets/images/4dfa81522be498514ca684e195c15d71.image.webp"/>
 </div>
 
 选择适合系统的P4V-下载
@@ -165,8 +156,7 @@ P4PASSWD=pass12349ers!
 
 <div class="image-preview">
     <img src = 
-"https://blog.megestu.top/static/img/eed1a21de36a198d1ad977c02e5101b8.image.webp"
-        >
+"https://megestus.github.io/blog/assets/images/eed1a21de36a198d1ad977c02e5101b8.image.webp"/>
 </div>
 
 无脑下一步~
@@ -175,8 +165,7 @@ P4PASSWD=pass12349ers!
 
 <div class="image-preview">
     <img src = 
-"https://blog.megestu.top/static/img/a45b9bf8c83d41ce3d8b677190873260.image.webp"
-        >
+"https://megestus.github.io/blog/assets/images/a45b9bf8c83d41ce3d8b677190873260.image.webp"/>
 </div>
 
 输入账号密码 
@@ -185,8 +174,7 @@ P4PASSWD=pass12349ers!
 即可完成登录
 <div class="image-preview">
     <img src = 
-"https://blog.megestu.top/static/img/08741e445fe305f48a8c260b9ef23e2c.image.webp"
-        >
+"https://megestus.github.io/blog/assets/images/08741e445fe305f48a8c260b9ef23e2c.image.webp"/>
 </div>
 
 部署完成  
