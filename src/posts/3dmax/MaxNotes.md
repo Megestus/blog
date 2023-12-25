@@ -6,7 +6,7 @@ category:
 tag:
   - 3dMax
   - tips
-
+date: 2023-12-23
 # star: 1
 ---
 
