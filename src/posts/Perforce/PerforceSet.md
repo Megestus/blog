@@ -222,3 +222,33 @@ P4PASSWD=pass12349ers!
 
 使用和P4类似，
 不过多说明。
+
+
+<style>
+
+  .image-preview {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .image-preview > img {
+     box-sizing: border-box;
+     width: 33.3% !important;
+     padding: 9px;
+     border-radius: 16px;
+  }
+
+  @media (max-width: 719px){
+    .image-preview > img {
+      width: 50% !important;
+    }
+  }
+
+  @media (max-width: 419px){
+    .image-preview > img {
+      width: 100% !important;
+    }
+  }
+</style>
