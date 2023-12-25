@@ -235,14 +235,14 @@ P4PASSWD=pass12349ers!
 
   .image-preview > img {
      box-sizing: border-box;
-     width: 33.3% !important;
+     width: 90% !important;
      padding: 9px;
      border-radius: 16px;
   }
 
   @media (max-width: 719px){
     .image-preview > img {
-      width: 50% !important;
+      width: 95% !important;
     }
   }
 
