@@ -15,7 +15,7 @@ star: 2
 记录下云服务器部署Perforce的流程
 
 <div class="image-preview">
-  <img src="https://megestus.github.io/blog/assets/images/p4nas.png" />
+  <img src="https://megestus.github.io/blog/assets/images/p4nas.png" style="75%"/>
 </div>
 
 
