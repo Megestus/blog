@@ -6,7 +6,7 @@ category:
 tag:
   - maya
   - tool
-
+date: 2023-12-02
 ---
 
 <div class="image-preview">
