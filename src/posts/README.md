@@ -30,3 +30,7 @@ article: false
 ### Perforce
 
 - [Perforce 云部署](P4/PerforceSet.md)
+
+### 图床
+
+- [GitHub+PicGo+CDN图床搭建](gallery/gallery.md)
