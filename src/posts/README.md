@@ -33,4 +33,4 @@ article: false
 
 ### 图床
 
-- [GitHub+PicGo+CDN图床搭建](gallery/gallery.md)
+- [GitHub+PicGo+CDN图床搭建](Other/gallery.md)

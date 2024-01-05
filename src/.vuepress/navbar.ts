@@ -84,7 +84,22 @@ export default navbar([
               
             },   
           ],
-        },
+      },
+
+      {
+        //docs下拉菜单-小标题 other
+          text: "Other",
+          icon: "fa-solid fa-otter",
+          prefix: "Other/",
+          children: [
+            {
+              text: "gallery",
+              icon: "fa-solid fa-laptop-file",
+              link: "gallery",
+              
+            },   
+          ],
+      },
     ],
   },
 
