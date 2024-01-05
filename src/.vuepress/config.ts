@@ -32,7 +32,7 @@ export default defineUserConfig({
         // 启用图片懒加载
         imgLazyload: true,
         // 启用图片标记
-        imgMark: true,
+        // imgMark: true,
         // 启用图片大小
         imgSize: true,
         // 启用任务列表  - [ ] 一些文字  - [x] 一些文字
