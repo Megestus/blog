@@ -94,7 +94,7 @@ export default navbar([
           children: [
             {
               text: "gallery",
-              icon: "fa-solid fa-laptop-file",
+              icon: "fa-solid fa-images",
               link: "gallery",
               
             },   
@@ -108,10 +108,12 @@ export default navbar([
 
 
   // 跳转链接
-  // {
-  //   text: "V2 文档",
-  //   icon: "book",
-  //   link: "https://theme-hope.vuejs.press/zh/",
-  // },
+  {
+    text: "themehope",
+    icon: "fa-solid fa-otter",
+    link: "https://theme-hope.vuejs.press/zh/",
+  },
+
+
 ]);
 
