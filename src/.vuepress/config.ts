@@ -1,4 +1,5 @@
 import { defineUserConfig } from "vuepress";
+import { photoSwipePlugin } from "vuepress-plugin-photo-swipe";
 import { hopeTheme } from "vuepress-theme-hope";
 import theme from "./theme.js";
 
@@ -50,6 +51,18 @@ export default defineUserConfig({
       },
 
     },
+
+    plugins: [  
+      photoSwipePlugin({
+        locales: {
+          "/": {
+            // 覆盖分享标签文字
+            share: "分享给伙伴",
+          },
+        },
+      }),
+    ],
+
   }),
   
   

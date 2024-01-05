@@ -123,31 +123,3 @@ git仓库，制定文件路径，分支，token，按配置填写域名cdn。
 </div>
 
 
-<style>
-
-  .image-preview {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-wrap: wrap;
-  }
-
-  .image-preview > img {
-     box-sizing: border-box;
-     width: 50% !important;
-     padding: 9px;
-     border-radius: 16px;
-  }
-
-  @media (max-width: 1200px){
-    .image-preview > img {
-      width: 75% !important;
-    }
-  }
-
-  @media (max-width: 900px){
-    .image-preview > img {
-      width: 100% !important;
-    }
-  }
-</style>
