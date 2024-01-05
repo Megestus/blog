@@ -50,9 +50,6 @@ export default defineUserConfig({
 
       },
 
-    },
-
-    plugins: [  
       photoSwipePlugin({
         locales: {
           "/": {
@@ -61,7 +58,9 @@ export default defineUserConfig({
           },
         },
       }),
-    ],
+      
+    },
+    
 
   }),
   
