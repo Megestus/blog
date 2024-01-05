@@ -48,13 +48,14 @@ git仓库，制定文件路径，分支，token，按配置填写域名cdn。
 
 
 <div class="image-preview">
-  <img src="https://raw.githubusercontent.com/Megestus/img-cloud/main/images/img_2024-01-n37.png" style="75%"/>
+  <img src="https://cdn.jsdelivr.net/gh/Megestus/img-cloud/images/img_2024-01-n37.png" style="75%"/>
 </div>
+
 
 并且-创建好存储文件夹。
 
 <div class="image-preview">
-  <img src="https://raw.githubusercontent.com/Megestus/img-cloud/main/images/img_2024-01-n55.png" style="75%"/>
+  <img src="https://cdn.jsdelivr.net/gh/Megestus/img-cloud/images/img_2024-01-n55.png" style="75%"/>
 </div>
 
 
