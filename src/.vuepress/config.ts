@@ -3,6 +3,7 @@ import { hopeTheme } from "vuepress-theme-hope";
 import theme from "./theme.js";
 
 
+
 export default defineUserConfig({
   base: "/blog/",
 
@@ -26,15 +27,15 @@ export default defineUserConfig({
         // 这就是默认选项，所以你可以直接使用它   --提示容器
         hint: true,
         //标记
-        mark: true,
+        // mark: true,
         // 启用 figure 图片
-        figure: true,
+        // figure: true,
         // 启用图片懒加载
-        imgLazyload: true,
+        // imgLazyload: true,
         // 启用图片标记
         // imgMark: true,
         // 启用图片大小
-        imgSize: true,
+        // imgSize: true,
         // 启用任务列表  - [ ] 一些文字  - [x] 一些文字
         tasklist: true,
         //代码块分组  
